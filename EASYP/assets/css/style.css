@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+
+:root{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 18%;
+    height: 100vh;
+    border: solid blue 1px;
+}
+footer {
+    width: 32%;
+    height: 100vh;
+    border: solid red 1px;
+    
+}
+
+
+main {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+/** Path: EASYP/assets/css/style.css */
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.nav-title{
+    margin-bottom: 20px;
+}
+.nav-opcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10%;
+}
+
+h1{
+    color: blueviolet;
+    align-self: center;
+    margin-top: 40px;
+
+}
+
+.opcion{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.opcion img{
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+.opcion span{
+    font-size: 17px;
+    color: black;
+    align-self: center;
+    font-weight: 600;
+}
+
+.rounded-image{
+    border-radius: 60%;
+}
