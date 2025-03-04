@@ -10,6 +10,7 @@ saludar('Fernando', 40, true, 'Costa Rica');
 
 const saludar2 = (usuario)=>{
     console.log('Hola ' + usuario   );
+    return 1;
 }
 
 

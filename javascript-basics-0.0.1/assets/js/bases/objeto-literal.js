@@ -32,7 +32,7 @@ console.log("--------------");
 
 const entriesPares = Object.entries(personaje);
 console.log(entriesPares);
-
+/// El freeze solo congela los objetos pero no los atributos dentro del objeto como array, lista, etc.
 Object.freeze(personaje);
 personaje.dinero = 1000000;
 personaje.casado = false;
@@ -49,3 +49,4 @@ console.log("--------------");
 const propiedades = Object.getOwnPropertyNames(personaje);
 const valores = Object.values(personaje);
 console.log(propiedades,valores);
+
