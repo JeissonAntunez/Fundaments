@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+            height: 60vh;
+            text-align: center;
+            justify-content: center;
+            
+    
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 20px;
+        }
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 114px;
+            /* top: 0; */
+            /* bottom: ; */
+            width: 2px;
+            height: 230px;
+            background: black;
+        }
+        .event {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .event span {
+            color: gray;
+            font-size: 12px;
+            min-width: 80px;
+            text-align: right;
+        }
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: black;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+        }
+        .event-content {
+            font-size: 14px;
+            text-align: left;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Changelog</h2>
+        <p>Here's everything we have shipped in the past few days</p>
+        <div class="timeline">
+            <div class="event"><span>Sep 3, 2024</span><div class="dot"></div><div class="event-content">Announcing Projects on Frontend Roadmap</div></div>
+            <div class="event"><span>Aug 28, 2024</span><div class="dot"></div><div class="event-content">Build your learning habits with learning streaks</div></div>
+            <div class="event"><span>Aug 25, 2024</span><div class="dot"></div><div class="event-content">Git and GitHub Roadmap</div></div>
+            <div class="event"><span>Aug 22, 2024</span><div class="dot"></div><div class="event-content">Submit your project solution and get feedback</div></div>
+            <div class="event"><span>Aug 15, 2024</span><div class="dot"></div><div class="event-content">Backend Project Ideas</div></div>
+            <div class="event"><span>Aug 10, 2024</span><div class="dot"></div><div class="event-content">Redis Roadmap</div></div>
+            <div class="event"><span>Aug 1, 2024</span><div class="dot"></div><div class="event-content">Changelog page to help you stay in the loop</div></div>
+        </div>
+        <a href="#" class="button">Visit Complete Changelog</a>
+    </div>
+</body>
+</html>
